@@ -1,33 +1,21 @@
-# Final Submission
+# LA Crime Data Visualizations (2020–2023)
 
-https://observablehq.com/d/fe69ebe910a5e7aa@863
+Interactive D3.js visualizations of Los Angeles crime trends from 2020 to 2023.  
+Originally built in [Observable](https://observablehq.com/d/fe69ebe910a5e7aa) and exported for GitHub.
 
-View this notebook in your browser by running a web server in this folder. For
-example:
+## 🔗 Live Demo
 
-~~~sh
-npx http-server
-~~~
+[View it on GitHub Pages](https://elizabethvargas.github.io/la-crime-visualization/)
 
-Or, use the [Observable Runtime](https://github.com/observablehq/runtime) to
-import this module directly into your application. To npm install:
+## 🚀 Tech Stack
 
-~~~sh
-npm install @observablehq/runtime@5
-npm install https://api.observablehq.com/d/fe69ebe910a5e7aa@863.tgz?v=3
-~~~
+- D3.js
+- HTML/CSS
+- JavaScript (Observable export)
 
-Then, import your notebook and the runtime as:
+## 📁 Files
 
-~~~js
-import {Runtime, Inspector} from "@observablehq/runtime";
-import define from "fe69ebe910a5e7aa";
-~~~
+- `index.html` – Main page
+- `main.js` – Custom logic
+- `notebook.js` – Observable cells
 
-To log the value of the cell named “foo”:
-
-~~~js
-const runtime = new Runtime();
-const main = runtime.module(define);
-main.value("foo").then(value => console.log(value));
-~~~
