@@ -1,0 +1,14 @@
+{
+  "name": "fe69ebe910a5e7aa",
+  "main": "fe69ebe910a5e7aa@863.js",
+  "version": "863.0.0",
+  "homepage": "https://observablehq.com/d/fe69ebe910a5e7aa",
+  "author": {
+    "name": "nyuInfoVis",
+    "url": "https://observablehq.com/@nyuinfovis"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
