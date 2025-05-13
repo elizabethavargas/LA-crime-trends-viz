@@ -1,7 +1,7 @@
 # LA Crime Data Visualizations (2020–2023)
 
 Interactive D3.js visualizations of Los Angeles crime trends from 2020 to 2023.  
-Originally built in [Observable](https://observablehq.com/d/fe69ebe910a5e7aa) and exported for GitHub.
+Originally built in [Observable](https://observablehq.com/d/72387225fafd0d1b) and exported for GitHub.
 
 ## 🚀 Tech Stack
 
